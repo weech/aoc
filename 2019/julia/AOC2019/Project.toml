@@ -1,0 +1,14 @@
+name = "AOC2019"
+uuid = "fd943b30-bacc-4e47-a988-f214a020e578"
+authors = ["Alex Weech <abw@alexweech.com>"]
+version = "0.1.0"
+
+[deps]
+ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
+ImageView = "86fae568-95e7-573e-a6b2-d8a6b900c9ef"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
