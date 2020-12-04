@@ -16,4 +16,20 @@ data = ["1-3 a: abcde", "1-3 b: cdefg", "2-9 c: ccccccccc"]
 @test 1 == Scripts.day2_part2(data=data)
 @test 404 == Scripts.day2_part2()
 
+# Day 3 
+data = [0 0 1 1 0 0 0 0 0 0 0
+1 0 0 0 1 0 0 0 1 0 0
+0 1 0 0 0 0 1 0 0 1 0
+0 0 1 0 1 0 0 0 1 0 1
+0 1 0 0 0 1 1 0 0 1 0
+0 0 1 0 1 1 0 0 0 0 0
+0 1 0 1 0 1 0 0 0 0 1
+0 1 0 0 0 0 0 0 0 0 1
+1 0 1 1 0 0 0 1 0 0 0
+1 0 0 0 1 1 0 0 0 0 1
+0 1 0 0 1 0 0 0 1 0 1]
+@test 7 == Scripts.day3_part1(data=data)
+@test 265 == Scripts.day3_part1()
+@test 336 == Scripts.day3_part2(data=data)
+@test 3154761400 == Scripts.day3_part2()
 end

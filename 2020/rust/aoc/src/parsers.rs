@@ -19,7 +19,13 @@ pub fn day1() -> Vec<i64> {
 }
 
 pub fn day2() -> Vec<String> {
-    read_lines("day1.txt")
+    read_lines("day2.txt")
         .collect::<Result<Vec<_>, _>>()
         .unwrap()
+}
+
+pub fn day3() -> Vec<Vec<char>> {
+    read_lines("day3.txt")
+        .map(|line| line.unwrap().chars().collect::<Vec<_>>())
+        .collect()
 }
