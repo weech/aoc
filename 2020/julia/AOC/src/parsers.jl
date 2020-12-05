@@ -2,13 +2,9 @@ module Parsers
 
 const DATA = joinpath(@__DIR__, "..", "..", "..", "data")
 
-function day1()
-	parse.(Int, readlines(joinpath(DATA, "day1.txt")))
-end
+day1() = parse.(Int, readlines(joinpath(DATA, "day1.txt")))
 
-function day2()
-	readlines(joinpath(DATA, "day2.txt"))
-end
+day2() = readlines(joinpath(DATA, "day2.txt"))
 
 function day3()
 	ret = map(readlines(joinpath(DATA, "day3.txt"))) do line
@@ -33,5 +29,7 @@ function day4()
 	end
 	items
 end
+
+day5() = eachline(joinpath(DATA, "day5.txt"))
 
 end # module

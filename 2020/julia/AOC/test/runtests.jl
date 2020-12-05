@@ -1,20 +1,20 @@
 using Test
-import AOC.Scripts
+import AOC
 @testset "AOC2020" begin 
 
 # Day 1
 data = [1721, 979, 366, 299, 675, 1456]
-@test 514579 == Scripts.day1_part1(data=data)
-@test 842016 == Scripts.day1_part1()
-@test 241861950 == Scripts.day1_part2(data=data)
-@test 9199664 == Scripts.day1_part2()
+@test 514579 == AOC.day1_part1(data=data)
+@test 842016 == AOC.day1_part1()
+@test 241861950 == AOC.day1_part2(data=data)
+@test 9199664 == AOC.day1_part2()
 
 # Day 2
 data = ["1-3 a: abcde", "1-3 b: cdefg", "2-9 c: ccccccccc"]
-@test 2 == Scripts.day2_part1(data=data)
-@test 603 == Scripts.day2_part1()
-@test 1 == Scripts.day2_part2(data=data)
-@test 404 == Scripts.day2_part2()
+@test 2 == AOC.day2_part1(data=data)
+@test 603 == AOC.day2_part1()
+@test 1 == AOC.day2_part2(data=data)
+@test 404 == AOC.day2_part2()
 
 # Day 3 
 data = [0 0 1 1 0 0 0 0 0 0 0
@@ -28,10 +28,10 @@ data = [0 0 1 1 0 0 0 0 0 0 0
 1 0 1 1 0 0 0 1 0 0 0
 1 0 0 0 1 1 0 0 0 0 1
 0 1 0 0 1 0 0 0 1 0 1]
-@test 7 == Scripts.day3_part1(data=data)
-@test 265 == Scripts.day3_part1()
-@test 336 == Scripts.day3_part2(data=data)
-@test 3154761400 == Scripts.day3_part2()
+@test 7 == AOC.day3_part1(data=data)
+@test 265 == AOC.day3_part1()
+@test 336 == AOC.day3_part2(data=data)
+@test 3154761400 == AOC.day3_part2()
 
 # Day 4
 data = ["ecl:gry pid:860033327 eyr:2020 hcl:#fffffd
@@ -45,8 +45,8 @@ hgt:179cm",
 "hcl:#cfa07d eyr:2025 pid:166559648
 iyr:2011 ecl:brn hgt:59in",
 ]
-@test 2 == Scripts.day4_part1(data=data)
-@test 260 == Scripts.day4_part1()
+@test 2 == AOC.day4_part1(data=data)
+@test 260 == AOC.day4_part1()
 invalid = ["eyr:1972 cid:100
 hcl:#18171d ecl:amb hgt:170 pid:186cm iyr:2018 byr:1926",
 "iyr:2019
@@ -57,7 +57,7 @@ ecl:brn hgt:182cm pid:021572410 eyr:2020 byr:1992 cid:277",
 "hgt:59cm ecl:zzz
 eyr:2038 hcl:74454a iyr:2023
 pid:3556412378 byr:2007"]
-@test 0 == Scripts.day4_part2(data=invalid)
+@test 0 == AOC.day4_part2(data=invalid)
 valid = [
 "pid:087499704 hgt:74in ecl:grn iyr:2012 eyr:2030 byr:1980
 hcl:#623a2f",
@@ -69,6 +69,17 @@ pid:545766238 ecl:hzl
 eyr:2022",
 "iyr:2010 hgt:158cm hcl:#b6652a ecl:blu byr:1944 eyr:2021 pid:093154719"
 ]
-@test 4 == Scripts.day4_part2(data=valid)
-@test 153 == Scripts.day4_part2()
+@test 4 == AOC.day4_part2(data=valid)
+@test 153 == AOC.day4_part2()
+
+# Day 5
+data = ["FBFBBFFRLR", "BFFFBBFRRR", "FFFBBBFRRR", "BBFFBBFRLL"]
+truths = [357, 567, 119, 820]
+for (truth, item) in zip(truths, data)
+	@test truth == AOC.Day5.get_seat_id(item)
+end
+@test 820 == AOC.day5_part1(data=data)
+@test 880 == AOC.day5_part1()
+@test 731 == AOC.day5_part2()
+
 end
