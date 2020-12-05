@@ -1,4 +1,5 @@
 use std::fs::File;
+use std::io::prelude::*;
 use std::io::{BufRead, BufReader};
 use std::path::PathBuf;
 
@@ -10,6 +11,15 @@ fn read_lines(fname: &str) -> std::io::Lines<BufReader<File>> {
     let file = File::open(&path).unwrap();
     let reader = BufReader::new(file);
     reader.lines()
+}
+
+fn read_whole(fname: &str) -> String {
+    let mut path: PathBuf = DATA.iter().collect();
+    path.push(fname);
+    let mut file = File::open(&path).unwrap();
+    let mut string = String::new();
+    file.read_to_string(&mut string).unwrap();
+    string
 }
 
 pub fn day1() -> Vec<i64> {
@@ -28,4 +38,9 @@ pub fn day3() -> Vec<Vec<char>> {
     read_lines("day3.txt")
         .map(|line| line.unwrap().chars().collect::<Vec<_>>())
         .collect()
+}
+
+pub fn day4() -> Vec<String> {
+    let string = read_whole("day4.txt");
+    string.split("\n\n").map(str::to_owned).collect()
 }

@@ -32,6 +32,54 @@ function count_trees(slope, data)
 	count
 end
 
+struct Passport 
+	byr::String
+	iyr::String 
+	eyr::String
+	hgt::String
+	hcl::String
+	ecl::String
+	pid::String
+	cid::Union{Nothing, String}
+end
+
+function Passport(info::String)::Union{Missing,Passport}
+	parts = Dict(map(split(info)) do item
+		(key, value) = split(item, ':')
+		key => value
+	end)
+	keys = ["byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid"]
+	if !all(map(k -> haskey(parts, k), keys))
+		return missing 
+	else
+		if haskey(parts, "cid")
+			Passport(map(k -> parts[k], keys)..., parts["cid"])
+		else
+			Passport(map(k -> parts[k], keys)..., nothing)
+		end
+	end
+end
+
+function validate_passport(card::Passport)::Bool
+	!(1920 <= parse(Int, card.byr) <= 2002) && return false
+	!(2010 <= parse(Int, card.iyr) <= 2020) && return false
+	!(2020 <= parse(Int, card.eyr) <= 2030) && return false
+	hgt = match(r"^(\d+)([a-z]+)$", card.hgt)
+	if isnothing(hgt)
+		return false
+	elseif hgt.captures[2] == "in"
+		!(59 <= parse(Int, hgt.captures[1]) <= 76) && return false
+	elseif hgt.captures[2] == "cm"
+		!(150 <= parse(Int, hgt.captures[1]) <= 193) && return false
+	else 
+		return false
+	end
+	!occursin(r"^#[[:xdigit:]]{6}$", card.hcl) && return false
+	!(card.ecl in ["amb", "blu", "brn", "gry", "grn", "hzl", "oth"]) && return false
+	!occursin(r"^\d{9}$", card.pid) && return false
+	true
+end
+
 module Scripts
 import AOC
 import AOC.Parsers
@@ -71,6 +119,14 @@ function day3_part2(;data=Parsers.day3())
 	mapreduce(*, [[1, 1], [1, 3], [1, 5], [1, 7], [2, 1]]) do slope
 		AOC.count_trees(slope, data)
 	end
+end
+
+function day4_part1(;data=Parsers.day4())
+	count(!ismissing, map(AOC.Passport, data))
+end
+
+function day4_part2(;data=Parsers.day4())
+	count(AOC.validate_passport, skipmissing(map(AOC.Passport, data)))
 end
 
 end # module Scripts

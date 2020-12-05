@@ -17,4 +17,21 @@ function day3()
 	permutedims(reduce(hcat, ret))
 end
 
+function day4()
+	items = String[]
+	last_was_blank = true
+	for line in eachline(joinpath(DATA, "day4.txt"), keep=true)
+		if last_was_blank
+			push!(items, line)
+			last_was_blank = false
+		elseif strip(line) == ""
+			last_was_blank = true
+		else
+			items[end] *= line 
+			last_was_blank = false
+		end
+	end
+	items
+end
+
 end # module
