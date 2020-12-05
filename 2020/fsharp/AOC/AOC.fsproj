@@ -1,11 +1,14 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Include="Library.fs" />
+    <Compile Include="Day1.fs" />
+    <Compile Include="Day2.fs" />
+    <Compile Include="Parsers.fs" />
+    <Compile Include="Day4.fs" />
+    <Compile Include="Day3.fs" />
+    <Compile Include="Day5.fs" />
   </ItemGroup>
-
 </Project>

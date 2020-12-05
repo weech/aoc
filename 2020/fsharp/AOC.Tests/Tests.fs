@@ -8,26 +8,26 @@ open AOC
 [<Fact>]
 let ``D1P1`` () =
     let data = [1721; 979; 366; 299; 675; 1456]
-    Assert.Equal(514579, Scripts.day1Part1 data)
-    Assert.Equal(842016, Scripts.day1Part1 (Parsers.day1()))
+    Assert.Equal(514579, Day1.part1 data)
+    Assert.Equal(842016, Day1.part1 (Parsers.day1()))
 
 [<Fact>]
 let ``D1P2`` () =
     let data = [1721; 979; 366; 299; 675; 1456]
-    Assert.Equal(241861950, Scripts.day1Part2 data)
-    Assert.Equal(9199664, Scripts.day1Part2 (Parsers.day1()))
+    Assert.Equal(241861950, Day1.part2 data)
+    Assert.Equal(9199664, Day1.part2 (Parsers.day1()))
 
 [<Fact>]
 let ``D2P1`` () = 
     let data = ["1-3 a: abcde"; "1-3 b: cdefg"; "2-9 c: ccccccccc"]
-    Assert.Equal(2, Scripts.day2Part1 data)
-    Assert.Equal(603, Scripts.day2Part1 (Parsers.day2()))
+    Assert.Equal(2, Day2.part1 data)
+    Assert.Equal(603, Day2.part1 (Parsers.day2()))
 
 [<Fact>]
 let ``D2P2`` () =
     let data = ["1-3 a: abcde"; "1-3 b: cdefg"; "2-9 c: ccccccccc"]
-    Assert.Equal(1, Scripts.day2Part2 data)
-    Assert.Equal(404, Scripts.day2Part2 (Parsers.day2()))
+    Assert.Equal(1, Day2.part2 data)
+    Assert.Equal(404, Day2.part2 (Parsers.day2()))
 
 
 [<Fact>]
@@ -43,8 +43,8 @@ let ``D3P1`` () =
         [1; 0; 1; 1; 0; 0; 0; 1; 0; 0; 0 ];
         [1; 0; 0; 0; 1; 1; 0; 0; 0; 0; 1 ];
         [0; 1; 0; 0; 1; 0; 0; 0; 1; 0; 1 ]]
-    Assert.Equal(7L, Scripts.day3Part1 data)
-    Assert.Equal(265L, Scripts.day3Part1 (Parsers.day3()))
+    Assert.Equal(7L, Day3.part1 data)
+    Assert.Equal(265L, Day3.part1 (Parsers.day3()))
 
 [<Fact>]
 let ``D3P2`` () = 
@@ -59,8 +59,8 @@ let ``D3P2`` () =
         [1; 0; 1; 1; 0; 0; 0; 1; 0; 0; 0 ];
         [1; 0; 0; 0; 1; 1; 0; 0; 0; 0; 1 ];
         [0; 1; 0; 0; 1; 0; 0; 0; 1; 0; 1 ]]
-    Assert.Equal(336L, Scripts.day3Part2 data)
-    Assert.Equal(3154761400L, Scripts.day3Part2 (Parsers.day3()))
+    Assert.Equal(336L, Day3.part2 data)
+    Assert.Equal(3154761400L, Day3.part2 (Parsers.day3()))
 
 [<Fact>]
 let ``D4P1`` () = 
@@ -75,8 +75,8 @@ let ``D4P1`` () =
     "hcl:#cfa07d eyr:2025 pid:166559648
     iyr:2011 ecl:brn hgt:59in";
     ]
-    Assert.Equal(2, Scripts.day4Part1 data)
-    Assert.Equal(260, Scripts.day4Part1 (Parsers.day4()))
+    Assert.Equal(2, Day4.part1 data)
+    Assert.Equal(260, Day4.part1 (Parsers.day4()))
 
 [<Fact>]
 let ``D4P2`` () = 
@@ -90,7 +90,7 @@ let ``D4P2`` () =
     "hgt:59cm ecl:zzz
     eyr:2038 hcl:74454a iyr:2023
     pid:3556412378 byr:2007"]
-    Assert.Equal(0, Scripts.day4Part2 invalid)
+    Assert.Equal(0, Day4.part2 invalid)
     let valid = ["pid:087499704 hgt:74in ecl:grn iyr:2012 eyr:2030 byr:1980
     hcl:#623a2f";
     "eyr:2029 ecl:blu cid:129 byr:1989
@@ -101,5 +101,21 @@ let ``D4P2`` () =
     eyr:2022";
     "iyr:2010 hgt:158cm hcl:#b6652a ecl:blu byr:1944 eyr:2021 pid:093154719"
     ]
-    Assert.Equal(4, Scripts.day4Part2 valid)
-    Assert.Equal(153, Scripts.day4Part2 (Parsers.day4()))
+    Assert.Equal(4, Day4.part2 valid)
+    Assert.Equal(153, Day4.part2 (Parsers.day4()))
+
+
+[<Fact>]
+let ``D5P1`` () = 
+    let data = ["FBFBBFFRLR"; "BFFFBBFRRR"; "FFFBBBFRRR"; "BBFFBBFRLL"]
+    let truths = [357; 567; 119; 820]
+    Seq.zip data truths 
+    |> Seq.iter (fun (item, truth) -> 
+        Assert.Equal(truth, Day5.getSeatID item)
+    )
+    Assert.Equal(820, Day5.part1 data)
+    Assert.Equal(880, Day5.part1(Parsers.day5()))
+
+[<Fact>]
+let ``D5P2`` () =
+    Assert.Equal(731, Day5.part2(Parsers.day5()))

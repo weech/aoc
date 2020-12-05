@@ -44,3 +44,9 @@ pub fn day4() -> Vec<String> {
     let string = read_whole("day4.txt");
     string.split("\n\n").map(str::to_owned).collect()
 }
+
+pub fn day5() -> Vec<String> {
+    read_lines("day5.txt")
+        .collect::<Result<Vec<_>, _>>()
+        .unwrap()
+}
