@@ -50,3 +50,11 @@ pub fn day5() -> Vec<String> {
         .collect::<Result<Vec<_>, _>>()
         .unwrap()
 }
+
+pub fn day6() -> Vec<Vec<String>> {
+    let string = read_whole("day6.txt");
+    string
+        .split("\n\n")
+        .map(|group| group.split("\n").map(str::to_owned).collect())
+        .collect()
+}

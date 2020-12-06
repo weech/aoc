@@ -82,4 +82,12 @@ end
 @test 880 == AOC.day5_part1()
 @test 731 == AOC.day5_part2()
 
+# Day 6
+data = [["abc"], ["a", "b", "c"], ["ab", "ac"], 
+		["a", "a", "a", "a"], ["b"]]
+@test 11 == AOC.day6_part1(data=data)
+@test 6161 == AOC.day6_part1()
+@test 6 == AOC.day6_part2(data=data)
+@test 2971 == AOC.day6_part2()
+
 end

@@ -32,4 +32,21 @@ end
 
 day5() = eachline(joinpath(DATA, "day5.txt"))
 
+function day6()
+	items = Vector{Vector{String}}()
+	last_was_blank = true
+	for line in eachline(joinpath(DATA, "day6.txt"), keep=true)
+		if last_was_blank
+			push!(items, [strip(line)])
+			last_was_blank = false
+		elseif strip(line) == ""
+			last_was_blank = true
+		else
+			push!(items[end], strip(line))
+			last_was_blank = false
+		end
+	end
+	items
+end
+
 end # module

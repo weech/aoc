@@ -119,3 +119,17 @@ let ``D5P1`` () =
 [<Fact>]
 let ``D5P2`` () =
     Assert.Equal(731, Day5.part2(Parsers.day5()))
+
+[<Fact>]
+let ``D6P1`` () = 
+    let data = [["abc"]; ["a"; "b"; "c"]; ["ab"; "ac"];
+                ["a"; "a"; "a"; "a"]; ["b"]]
+    Assert.Equal(11, Day6.part1(data))
+    Assert.Equal(6161, Day6.part1(Parsers.day6()))
+
+[<Fact>]
+let ``D6P2`` () =
+    let data = [["abc"]; ["a"; "b"; "c"]; ["ab"; "ac"];
+                ["a"; "a"; "a"; "a"]; ["b"]]
+    Assert.Equal(6, Day6.part2(data))
+    Assert.Equal(2971, Day6.part2(Parsers.day6()))
