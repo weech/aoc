@@ -35,3 +35,7 @@ module Parsers =
                 |> System.IO.File.ReadAllText
         file.Split([|"\n\n"|], StringSplitOptions.RemoveEmptyEntries)
         |> Seq.map (fun group -> group.Split([|'\n'|]))
+
+    let day7() = 
+        System.IO.Path.Combine [| DATA; "day7.txt" |]
+        |> System.IO.File.ReadLines         

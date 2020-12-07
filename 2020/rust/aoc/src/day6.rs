@@ -5,15 +5,15 @@ fn settify_string(person: &str) -> HashSet<char> {
 }
 
 fn full_set() -> HashSet<char> {
-	('a'..='z').collect()
+    ('a'..='z').collect()
 }
 
 fn part1(data: &[Vec<String>]) -> usize {
     data.iter()
         .map(|group| {
-			group
-				.iter()
-				.fold("".to_string(), |acc, person| format!("{}{}", acc, person))
+            group
+                .iter()
+                .fold("".to_string(), |acc, person| format!("{}{}", acc, person))
                 .chars()
                 .collect::<HashSet<_>>()
                 .len()
@@ -24,13 +24,11 @@ fn part1(data: &[Vec<String>]) -> usize {
 fn part2(data: &[Vec<String>]) -> usize {
     data.iter()
         .map(|group| {
-			dbg!(group);
-			dbg!(group
-				.iter()
-                .fold(full_set(), |acc, ele| {
-                    acc.intersection(&ele.chars().collect()).copied().collect()
-                }))
-                .len()
+            dbg!(group);
+            dbg!(group.iter().fold(full_set(), |acc, ele| {
+                acc.intersection(&ele.chars().collect()).copied().collect()
+            }))
+            .len()
         })
         .sum()
 }

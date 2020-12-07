@@ -49,4 +49,7 @@ function day6()
 	items
 end
 
+day7() = eachline(joinpath(DATA, "day7.txt"))
+
+
 end # module

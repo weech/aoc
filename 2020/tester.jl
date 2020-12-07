@@ -1,7 +1,7 @@
 cd(joinpath("julia", "AOC"))
-run(`julia -e "import Pkg; Pkg.activate(\".\"); Pkg.test()"`)
+@time run(`julia -e "import Pkg; Pkg.activate(\".\"); Pkg.test()"`)
 cd(joinpath("..", "..", "fsharp"))
-run(`dotnet test`)
+@time run(`dotnet test`)
 cd(joinpath("..", "rust", "aoc"))
-run(`cargo test`)
+@time run(`cargo test`)
 

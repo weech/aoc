@@ -58,3 +58,9 @@ pub fn day6() -> Vec<Vec<String>> {
         .map(|group| group.split("\n").map(str::to_owned).collect())
         .collect()
 }
+
+pub fn day7() -> Vec<String> {
+    read_lines("day7.txt")
+        .collect::<Result<Vec<_>, _>>()
+        .unwrap()
+}
