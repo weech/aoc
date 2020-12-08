@@ -16,9 +16,11 @@ let getSeatID item =
     |> (+) "0b"
     |> int
 
+// 874.601 us
 let part1 data = 
     data |> Seq.map getSeatID |> Seq.max
 
+// 892.714 us
 let part2 data =
     let sorted = data |> Seq.map getSeatID |> Array.ofSeq |> Array.sort
     Array.map2 (-) sorted.[1..] sorted.[..((Array.length sorted) - 2)]

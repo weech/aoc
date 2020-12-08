@@ -9,6 +9,7 @@ let splitInFour (str: string)  =
     (int cap.[0], int cap.[1], cap.[2].[0], cap.[3])
 
 
+// 4.399 ms
 let part1 data = 
     let isValid min max letter word =
         let getCount lett pword = 
@@ -21,6 +22,7 @@ let part1 data =
                     (fun (min, max, letter, word) -> isValid min max letter (Seq.toList word)))
     |> Seq.length
 
+// 2.649 ms
 let part2 data =
     let isValid first last letter (word: string) =
         (word.[first-1] = letter) <> (word.[last-1] = letter)

@@ -1,4 +1,4 @@
-fn part1(data: &[i64]) -> i64 {
+pub fn part1(data: &[i64]) -> i64 {
     for left in 0..data.len() {
         for right in left..data.len() {
             if data[left] + data[right] == 2020 {
@@ -9,7 +9,7 @@ fn part1(data: &[i64]) -> i64 {
     0
 }
 
-fn part2(data: &[i64]) -> i64 {
+pub fn part2(data: &[i64]) -> i64 {
     for left in 0..data.len() {
         for center in left..data.len() {
             for right in center..data.len() {

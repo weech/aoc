@@ -11,12 +11,14 @@ let cartesianProduct lists =
             lists 
             [[]]
 
+// 3.590 ms
 let part1 data = 
     cartesianProduct [data; data]
     |> List.map checkEntry
     |> List.filter (fun x -> x > 0)
     |> List.head
-    
+
+// 2.203 s    
 let part2 data = 
     cartesianProduct [data; data; data]
     |> List.map checkEntry

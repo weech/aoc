@@ -8,7 +8,7 @@ fn full_set() -> HashSet<char> {
     ('a'..='z').collect()
 }
 
-fn part1(data: &[Vec<String>]) -> usize {
+pub fn part1(data: &[Vec<String>]) -> usize {
     data.iter()
         .map(|group| {
             group
@@ -21,14 +21,16 @@ fn part1(data: &[Vec<String>]) -> usize {
         .sum()
 }
 
-fn part2(data: &[Vec<String>]) -> usize {
+// Currently > 1 ms
+pub fn part2(data: &[Vec<String>]) -> usize {
     data.iter()
         .map(|group| {
-            dbg!(group);
-            dbg!(group.iter().fold(full_set(), |acc, ele| {
-                acc.intersection(&ele.chars().collect()).copied().collect()
-            }))
-            .len()
+            group
+                .iter()
+                .fold(full_set(), |acc, ele| {
+                    acc.intersection(&ele.chars().collect()).copied().collect()
+                })
+                .len()
         })
         .sum()
 }

@@ -15,12 +15,14 @@ let day4Inner validator data =
     |> Seq.filter (groupEntry >> validator)
     |> Seq.length
 
+// 4.798 ms
 let part1 data = 
     let validatePassport (passport: Map<string, string>) = 
         let mandatoryKeys = ["byr"; "iyr"; "eyr"; "hgt"; "hcl"; "ecl"; "pid"]
         Seq.forall (fun key -> passport.ContainsKey(key)) mandatoryKeys
     day4Inner validatePassport data
 
+// 5.717 ms
 let part2 data = 
     let validatePassport (passport: Map<string, string>) = 
         passport.ContainsKey("byr") && Regex.IsMatch (passport.["byr"], "^19[2-9][0-9]$|^200[0-2]$") &&

@@ -8,10 +8,12 @@ let countTrees (slopeX: int, slopeY: int) (data: int [,]) =
     Seq.zip xs ys
     |> Seq.sumBy (fun (x, y) -> data.[x, y])
 
-    
+
+// 19.946 us    
 let part1 data = 
     int64 (countTrees (1, 3) data)
 
+// 93.445 us
 let part2 data = 
     Seq.fold (fun accum slope -> accum * int64 (countTrees slope data)) 
         1L

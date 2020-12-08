@@ -1,6 +1,10 @@
+use regex::Regex;
+
 fn extract_psk_and_rule(string: &str) -> (usize, usize, char, String) {
-    let re = regex::Regex::new(r"(\d+)-(\d+) ([a-z]): (.+)").unwrap();
-    let cap = re.captures(string).unwrap();
+    lazy_static! {
+        static ref RE: Regex = regex::Regex::new(r"(\d+)-(\d+) ([a-z]): (.+)").unwrap();
+    }
+    let cap = RE.captures(string).unwrap();
     (
         cap[1].parse().unwrap(),
         cap[2].parse().unwrap(),
@@ -9,7 +13,7 @@ fn extract_psk_and_rule(string: &str) -> (usize, usize, char, String) {
     )
 }
 
-fn part1(data: &[String]) -> usize {
+pub fn part1(data: &[String]) -> usize {
     data.iter()
         .filter(|line| {
             let (min, max, letter, word) = extract_psk_and_rule(line);
@@ -19,7 +23,7 @@ fn part1(data: &[String]) -> usize {
         .count()
 }
 
-fn part2(data: &[String]) -> usize {
+pub fn part2(data: &[String]) -> usize {
     data.iter()
         .filter(|line| {
             let (first, last, letter, word) = extract_psk_and_rule(line);

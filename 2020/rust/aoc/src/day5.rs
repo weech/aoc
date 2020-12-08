@@ -8,11 +8,11 @@ fn get_seat_id(item: &str) -> usize {
     })
 }
 
-fn part1(data: &[String]) -> usize {
+pub fn part1(data: &[String]) -> usize {
     data.iter().map(|x| get_seat_id(x)).max().unwrap()
 }
 
-fn part2(data: &[String]) -> usize {
+pub fn part2(data: &[String]) -> usize {
     let sorted = {
         let mut unsorted: Vec<_> = data.iter().map(|x| get_seat_id(x)).collect();
         unsorted.sort();

@@ -1,9 +1,12 @@
+use regex::Regex;
 use std::collections::HashMap;
 
 fn group_entry(item: &str) -> HashMap<String, String> {
-    let re = regex::Regex::new(r"(\w+):(\S+)").unwrap();
+    lazy_static! {
+        static ref RE: Regex = Regex::new(r"(\w+):(\S+)").unwrap();
+    }
     let mut passport: HashMap<String, String> = HashMap::new();
-    for cap in re.captures_iter(item) {
+    for cap in RE.captures_iter(item) {
         passport.insert(cap[1].to_string(), cap[2].to_string());
     }
     passport
@@ -15,7 +18,7 @@ fn inner(validator: fn(HashMap<String, String>) -> bool, data: &[String]) -> usi
         .count()
 }
 
-fn part1(data: &[String]) -> usize {
+pub fn part1(data: &[String]) -> usize {
     let validator = |passport: HashMap<String, String>| {
         let mandatory_keys = ["byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid"];
         mandatory_keys.iter().all(|key| passport.contains_key(*key))
@@ -23,30 +26,46 @@ fn part1(data: &[String]) -> usize {
     inner(validator, &data)
 }
 
-fn part2(data: &[String]) -> usize {
+// Currently > 1 ms
+pub fn part2(data: &[String]) -> usize {
     let validator = |passport: HashMap<String, String>| {
-        let byr_re = regex::Regex::new(r"^19[2-9][0-9]$|^200[0-2]$").unwrap();
-        let iyr_re = regex::Regex::new(r"^201[0-9]$|^2020$").unwrap();
-        let eyr_re = regex::Regex::new(r"^202[0-9]$|^2030$").unwrap();
-        let hgt_re =
-            regex::Regex::new(r"^1[5-8][0-9]cm$|^19[0-3]cm$|^59in$|^6[0-9]in$|^7[0-6]in$").unwrap();
-        let hcl_re = regex::Regex::new(r"^#[0-9a-f]{6}$").unwrap();
-        let ecl_re = regex::Regex::new(r"^amb$|^blu$|^brn$|^gry$|^grn$|^hzl$|^oth$").unwrap();
-        let pid_re = regex::Regex::new(r"^\d{9}$").unwrap();
+        lazy_static! {
+            static ref BYR_RE: Regex = Regex::new(r"^19[2-9][0-9]$|^200[0-2]$").unwrap();
+        }
+        lazy_static! {
+            static ref IYR_RE: Regex = Regex::new(r"^201[0-9]$|^2020$").unwrap();
+        }
+        lazy_static! {
+            static ref EYR_RE: Regex = Regex::new(r"^202[0-9]$|^2030$").unwrap();
+        }
+        lazy_static! {
+            static ref HGT_RE: Regex =
+                Regex::new(r"^1[5-8][0-9]cm$|^19[0-3]cm$|^59in$|^6[0-9]in$|^7[0-6]in$").unwrap();
+        }
+        lazy_static! {
+            static ref HCL_RE: Regex = Regex::new(r"^#[0-9a-f]{6}$").unwrap();
+        }
+        lazy_static! {
+            static ref ECL_RE: Regex =
+                Regex::new(r"^amb$|^blu$|^brn$|^gry$|^grn$|^hzl$|^oth$").unwrap();
+        }
+        lazy_static! {
+            static ref PID_RE: Regex = Regex::new(r"^\d{9}$").unwrap();
+        }
         passport.contains_key("byr")
-            && byr_re.is_match(&passport["byr"])
+            && BYR_RE.is_match(&passport["byr"])
             && passport.contains_key("iyr")
-            && iyr_re.is_match(&passport["iyr"])
+            && IYR_RE.is_match(&passport["iyr"])
             && passport.contains_key("eyr")
-            && eyr_re.is_match(&passport["eyr"])
+            && EYR_RE.is_match(&passport["eyr"])
             && passport.contains_key("hgt")
-            && hgt_re.is_match(&passport["hgt"])
+            && HGT_RE.is_match(&passport["hgt"])
             && passport.contains_key("hcl")
-            && hcl_re.is_match(&passport["hcl"])
+            && HCL_RE.is_match(&passport["hcl"])
             && passport.contains_key("ecl")
-            && ecl_re.is_match(&passport["ecl"])
+            && ECL_RE.is_match(&passport["ecl"])
             && passport.contains_key("pid")
-            && pid_re.is_match(&passport["pid"])
+            && PID_RE.is_match(&passport["pid"])
     };
     inner(validator, &data)
 }

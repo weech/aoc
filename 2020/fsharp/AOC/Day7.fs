@@ -29,6 +29,7 @@ let rec gatherParents bags desire =
                     |> Seq.concat 
                     |> List.ofSeq)
 
+// 7.560 ms
 let part1 data =
     let desire = "shiny gold"
     let bags = Seq.map parseBag data |> List.ofSeq
@@ -40,6 +41,7 @@ let rec countChildren (bags: Map<string,list<Rule>>) desire =
     bags.[desire]
     |> List.sumBy (fun rule -> rule.Count + (rule.Count * (countChildren bags rule.Color)))
 
+// 2.331 ms
 let part2 data = 
     let desire = "shiny gold"
     let bags = Seq.map parseBag data |> Map

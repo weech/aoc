@@ -14,11 +14,11 @@ fn count_trees(slope: &(usize, usize), data: &[Vec<char>]) -> u64 {
     count
 }
 
-fn part1(data: &[Vec<char>]) -> u64 {
+pub fn part1(data: &[Vec<char>]) -> u64 {
     count_trees(&(1, 3), data)
 }
 
-fn part2(data: &[Vec<char>]) -> u64 {
+pub fn part2(data: &[Vec<char>]) -> u64 {
     [(1usize, 1usize), (1, 3), (1, 5), (1, 7), (2, 1)]
         .iter()
         .fold(1, |accum, slope| accum * count_trees(slope, data))
