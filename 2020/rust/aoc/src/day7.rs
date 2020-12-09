@@ -50,7 +50,7 @@ fn gather_parents<'a, 'b>(
     parent_colors
 }
 
-// Currently > 1 ms
+// 2.35 ms
 pub fn part1(data: &[String]) -> usize {
     let desire = "shiny gold";
     let bags: Vec<_> = data.iter().map(parse_bag).collect();
@@ -67,6 +67,7 @@ fn count_children(bags: &HashMap<String, Vec<Rule>>, desire: &str) -> usize {
         .sum()
 }
 
+// 955 us
 pub fn part2(data: &[String]) -> usize {
     let desire = "shiny gold";
     let bags: HashMap<_, _> = data.iter().map(parse_bag).collect();

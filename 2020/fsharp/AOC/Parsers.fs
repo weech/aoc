@@ -39,3 +39,13 @@ module Parsers =
     let day7() = 
         System.IO.Path.Combine [| DATA; "day7.txt" |]
         |> System.IO.File.ReadLines         
+
+    let day8() = 
+        System.IO.Path.Combine [| DATA; "day8.txt" |]
+        |> System.IO.File.ReadLines  
+
+    let day9() = 
+        System.IO.Path.Combine [| DATA; "day9.txt" |]
+        |> System.IO.File.ReadLines 
+        |> Seq.map int64
+        |> Array.ofSeq

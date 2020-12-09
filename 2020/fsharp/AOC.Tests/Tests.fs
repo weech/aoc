@@ -169,3 +169,34 @@ let ``D7P2`` () =
     "dark violet bags contain no other bags."]
     Assert.Equal(126, Day7.part2(data2))
     Assert.Equal(24867, Day7.part2(Parsers.day7()))
+
+[<Fact>]
+let ``D8P1`` () = 
+    let data = ["nop +0"; "acc +1"; "jmp +4"; "acc +3"; "jmp -3";
+                "acc -99"; "acc +1"; "jmp -4"; "acc +6"]
+    Assert.Equal(5, Day8.part1(data))
+    Assert.Equal(1818, Day8.part1(Parsers.day8()))
+
+[<Fact>]
+let ``D8P2`` () =
+    let data = ["nop +0"; "acc +1"; "jmp +4"; "acc +3"; "jmp -3";
+                "acc -99"; "acc +1"; "jmp -4"; "acc +6"]
+    Assert.Equal(8, Day8.part2(data))
+    Assert.Equal(631, Day8.part2(Parsers.day8()))
+
+
+[<Fact>]
+let ``D9P1`` () = 
+    let data = [|35L; 20L; 15L; 25L; 47L; 40L; 62L; 55L; 65L; 95L; 
+                102L; 117L; 150L; 182L; 127L; 219L; 299L; 277L; 
+                309L; 576L|]
+    Assert.Equal(127L, Day9.part1 data 5)
+    Assert.Equal(1038347917L, Day9.part1 (Parsers.day9()) 25)
+
+[<Fact>]
+let ``D9P2`` () =
+    let data = [|35L; 20L; 15L; 25L; 47L; 40L; 62L; 55L; 65L; 95L; 
+                102L; 117L; 150L; 182L; 127L; 219L; 299L; 277L; 
+                309L; 576L|]
+    Assert.Equal(62L, Day9.part2 data 5)
+    Assert.Equal(137394018L, Day9.part2 (Parsers.day9()) 25)

@@ -112,4 +112,19 @@ data2 = ["shiny gold bags contain 2 dark red bags.",
 @test 32 == AOC.Day7.part2(data=data)
 @test 126 == AOC.Day7.part2(data=data2)
 @test 24867 == AOC.Day7.part2()
+
+# Day 8
+data = ["nop +0", "acc +1", "jmp +4", "acc +3", "jmp -3",
+		"acc -99", "acc +1", "jmp -4", "acc +6"]
+@test 5 == AOC.Day8.part1(data=data)
+@test 1818 == AOC.Day8.part1()
+@test 8 == AOC.Day8.part2(data=data)
+
+# Day 9 
+data = [35, 20, 15, 25, 47, 40, 62, 55, 65, 95, 102, 117, 150,
+		182, 127, 219, 299, 277, 309, 576]
+@test 127 == AOC.Day9.part1(data=data, preamble_len=5)
+@test 1038347917 == AOC.Day9.part1()
+@test 62 == AOC.Day9.part2(data=data, preamble_len=5)
+@test 137394018 == AOC.Day9.part2()
 end
