@@ -55,4 +55,6 @@ day8() = eachline(joinpath(DATA, "day8.txt"))
 
 day9() = parse.(Int, eachline(joinpath(DATA, "day9.txt")))
 
+day10() = parse.(Int, eachline(joinpath(DATA, "day10.txt")))
+
 end # module

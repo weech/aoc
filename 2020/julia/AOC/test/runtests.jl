@@ -127,4 +127,15 @@ data = [35, 20, 15, 25, 47, 40, 62, 55, 65, 95, 102, 117, 150,
 @test 1038347917 == AOC.Day9.part1()
 @test 62 == AOC.Day9.part2(data=data, preamble_len=5)
 @test 137394018 == AOC.Day9.part2()
+
+# Day 10 
+data1 = [16, 10, 15, 5, 1, 11, 7, 19, 6, 12, 4]
+data2 = [28, 33, 18, 42, 31, 14, 46, 20, 48, 47, 24, 23, 49, 45, 19,
+		 38, 39, 11, 1, 32, 25, 35, 8, 17, 7, 9, 4, 2, 34, 10, 3]
+@test 7*5 == AOC.Day10.part1(data=data1)
+@test 22*10 == AOC.Day10.part1(data=data2)
+@test 1836 == AOC.Day10.part1()
+@test 8 == AOC.Day10.part2(data=data1)
+@test 19208 == AOC.Day10.part2(data=data2)
+@test 43406276662336 == AOC.Day10.part2()
 end

@@ -200,3 +200,23 @@ let ``D9P2`` () =
                 309L; 576L|]
     Assert.Equal(62L, Day9.part2 data 5)
     Assert.Equal(137394018L, Day9.part2 (Parsers.day9()) 25)
+
+[<Fact>]
+let ``D10P1`` () = 
+    let data1 = [|16; 10; 15; 5; 1; 11; 7; 19; 6; 12; 4|]
+    let data2 = [|28; 33; 18; 42; 31; 14; 46; 20; 48; 47;
+                 24; 23; 49; 45; 19; 38; 39; 11; 1; 32;
+                 25; 35; 8; 17; 7; 9; 4; 2; 34; 10; 3|]
+    Assert.Equal((7*5), Day10.part1 data1)
+    Assert.Equal((22*10), Day10.part1 data2)
+    Assert.Equal((1836), Day10.part1 (Parsers.day10()))
+
+[<Fact>]
+let ``D10P2`` () = 
+    let data1 = [|16; 10; 15; 5; 1; 11; 7; 19; 6; 12; 4|]
+    let data2 = [|28; 33; 18; 42; 31; 14; 46; 20; 48; 47;
+                 24; 23; 49; 45; 19; 38; 39; 11; 1; 32;
+                 25; 35; 8; 17; 7; 9; 4; 2; 34; 10; 3|]
+    Assert.Equal((bigint 8), Day10.part2 data1)
+    Assert.Equal((bigint 19208), Day10.part2 data2)
+    Assert.Equal((bigint 43406276662336L), Day10.part2 (Parsers.day10()))
