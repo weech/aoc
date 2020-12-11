@@ -19,5 +19,6 @@ include("day7.jl")
 include("day8.jl")
 include("day9.jl")
 include("day10.jl")
+include("day11.jl")
 
 end # module AOC

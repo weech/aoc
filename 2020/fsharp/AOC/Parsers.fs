@@ -55,3 +55,8 @@ module Parsers =
         |> System.IO.File.ReadLines 
         |> Seq.map int
         |> Array.ofSeq    
+
+    let day11() = 
+        System.IO.Path.Combine [| DATA; "day11.txt" |]
+        |> System.IO.File.ReadLines
+        |> array2D
