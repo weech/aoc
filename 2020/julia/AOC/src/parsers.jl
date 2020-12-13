@@ -64,4 +64,9 @@ end
 
 day12() = eachline(joinpath(DATA, "day12.txt"))
 
+function day13()
+	lines = readlines(joinpath(DATA, "day13.txt"))
+	(parse(Int, lines[1]), lines[2])
+end
+
 end # module

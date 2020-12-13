@@ -162,4 +162,16 @@ data = ["F10", "N3", "F7", "R90", "F11"]
 @test 286 == AOC.Day12.part2(data=data)
 @test 12385 == AOC.Day12.part2()
 
+# Day 13 
+data = (939, "7,13,x,x,59,x,31,19")
+@test 295 == AOC.Day13.part1(data=data)
+@test 2238 == AOC.Day13.part1()
+@test 1068781 == AOC.Day13.part2(data=data)
+samples = ["17,x,13,19", "67,7,59,61", "67,x,7,59,61", "67,7,x,59,61", "1789,37,47,1889"]
+truths = [3417, 754018, 779210, 1261476, 1202161486]
+for (sample, truth) in zip(samples, truths)
+	@test truth == AOC.Day13.part2(data=(0, sample))
+end
+@test 560214575859998 == AOC.Day13.part2()
+
 end

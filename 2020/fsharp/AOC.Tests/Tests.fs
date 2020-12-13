@@ -263,3 +263,19 @@ let ``D12P2`` () =
     let data = ["F10"; "N3"; "F7"; "R90"; "F11"]
     Assert.Equal(286., Math.Round (Day12.part2 data))
     Assert.Equal(12385., Math.Round (Day12.part2 (Parsers.day12())))
+
+[<Fact>]
+let ``D13P1`` () =
+    let data = (939, "7,13,x,x,59,x,31,19")
+    Assert.Equal(295, AOC.Day13.part1 data)
+    Assert.Equal(2238, AOC.Day13.part1 (Parsers.day13()))
+
+[<Fact>]
+let ``D13P2`` () =
+    let data = (939L, "7,13,x,x,59,x,31,19")
+    Assert.Equal(1068781L, AOC.Day13.part2 data)
+    let samples = ["17,x,13,19"; "67,7,59,61"; "67,x,7,59,61"; "67,7,x,59,61"; "1789,37,47,1889"]
+    let truths = [3417L; 754018L; 779210L; 1261476L; 1202161486L]
+    Seq.zip samples truths 
+    |> Seq.iter (fun (sample, truth) -> Assert.Equal(truth, AOC.Day13.part2 (0, sample)))
+    Assert.Equal(560214575859998L, AOC.Day13.part2 (Parsers.day13()))
