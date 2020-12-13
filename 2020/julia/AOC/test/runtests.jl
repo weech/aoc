@@ -155,4 +155,11 @@ data = ['#' '.' '#' '#' '.' '#' '#' '.' '#' '#'
 @test 26 == AOC.Day11.part2(data=copy(data))
 @test 2138 == AOC.Day11.part2()
 
+# Day 12 
+data = ["F10", "N3", "F7", "R90", "F11"]
+@test 25 == AOC.Day12.part1(data=data)
+@test 439 == AOC.Day12.part1()
+@test 286 == AOC.Day12.part2(data=data)
+@test 12385 == AOC.Day12.part2()
+
 end

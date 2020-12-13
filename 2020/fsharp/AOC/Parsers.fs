@@ -60,3 +60,7 @@ module Parsers =
         System.IO.Path.Combine [| DATA; "day11.txt" |]
         |> System.IO.File.ReadLines
         |> array2D
+
+    let day12() = 
+        System.IO.Path.Combine [| DATA; "day12.txt" |]
+        |> System.IO.File.ReadLines    

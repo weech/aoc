@@ -62,4 +62,6 @@ function day11()
 	hcat(map(collect, lines)...)
 end
 
+day12() = eachline(joinpath(DATA, "day12.txt"))
+
 end # module

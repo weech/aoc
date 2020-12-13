@@ -250,3 +250,16 @@ let ``D11P2`` () =
                     ['#'; '.'; '#'; '#'; '#'; '#'; '#'; '.'; '#'; '#']]
     Assert.Equal(26, Day11.part2 data)
     Assert.Equal(2138, Day11.part2 (Parsers.day11()))
+
+
+[<Fact>]
+let ``D12P1`` () = 
+    let data = ["F10"; "N3"; "F7"; "R90"; "F11"]
+    Assert.Equal(25., Math.Round (Day12.part1 data))
+    Assert.Equal(439., Math.Round (Day12.part1 (Parsers.day12())))
+
+[<Fact>]
+let ``D12P2`` () = 
+    let data = ["F10"; "N3"; "F7"; "R90"; "F11"]
+    Assert.Equal(286., Math.Round (Day12.part2 data))
+    Assert.Equal(12385., Math.Round (Day12.part2 (Parsers.day12())))
