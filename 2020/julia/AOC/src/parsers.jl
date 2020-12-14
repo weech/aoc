@@ -69,4 +69,6 @@ function day13()
 	(parse(Int, lines[1]), lines[2])
 end
 
+day14() = eachline(joinpath(DATA, "day14.txt"))
+
 end # module

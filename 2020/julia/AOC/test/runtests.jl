@@ -174,4 +174,21 @@ for (sample, truth) in zip(samples, truths)
 end
 @test 560214575859998 == AOC.Day13.part2()
 
+# Day 14 
+data = [
+	"mask = XXXXXXXXXXXXXXXXXXXXXXXXXXXXX1XXXX0X",
+	"mem[8] = 11",
+	"mem[7] = 101",
+	"mem[8] = 0"
+]
+@test 165 == AOC.Day14.part1(data=data)
+@test 10050490168421 == AOC.Day14.part1()
+data2 = [
+	"mask = 000000000000000000000000000000X1001X"
+	"mem[42] = 100"
+	"mask = 00000000000000000000000000000000X0XX"
+	"mem[26] = 1"
+]
+@test 208 == AOC.Day14.part2(data=data2)
+@test 2173858456958 == AOC.Day14.part2()
 end
