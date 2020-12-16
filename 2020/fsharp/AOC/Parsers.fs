@@ -70,3 +70,7 @@ module Parsers =
                     |> System.IO.File.ReadAllText
         let lines = file.Split([|"\n"|], StringSplitOptions.RemoveEmptyEntries)
         (int lines.[0], lines.[1])
+
+    let day14() = 
+        System.IO.Path.Combine [| DATA; "day14.txt" |]
+        |> System.IO.File.ReadLines 

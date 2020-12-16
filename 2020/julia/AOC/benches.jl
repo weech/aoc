@@ -37,10 +37,14 @@ data11a = Parsers.day11()
 data11b = copy(data11a)
 suite["D11P1"] = @benchmarkable AOC.Day11.part1(data=$data11a)
 suite["D11P2"] = @benchmarkable AOC.Day11.part2(data=$data11b)
-=#
+
 data14 = collect(Parsers.day14())
 suite["D14P1"] = @benchmarkable AOC.Day14.part1(data=$data14)
 suite["D14P2"] = @benchmarkable AOC.Day14.part2(data=$data14)
+=#
+
+suite["D15P2"] = @benchmarkable AOC.Day15.part2()
+
 
 tune!(suite)
 results = run(suite, verbose = true)

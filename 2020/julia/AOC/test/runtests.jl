@@ -191,4 +191,26 @@ data2 = [
 ]
 @test 208 == AOC.Day14.part2(data=data2)
 @test 2173858456958 == AOC.Day14.part2()
+
+# Day 15
+@test 436 == AOC.Day15.part1(data=[0, 3, 6])
+@test 1 == AOC.Day15.part1(data=[1, 3, 2])
+@test 10 == AOC.Day15.part1(data=[2, 1, 3])
+@test 27 == AOC.Day15.part1(data=[1, 2, 3])
+@test 78 == AOC.Day15.part1(data=[2, 3, 1])
+@test 438 == AOC.Day15.part1(data=[3, 2, 1])
+@test 1836 == AOC.Day15.part1(data=[3, 1, 2])
+@test 211 == AOC.Day15.part1()
+
+#= Too slow to run every time
+@test 175594 == AOC.Day15.part2(data=[0, 3, 6])
+@test 2578 == AOC.Day15.part2(data=[1, 3, 2])
+@test 3544142 == AOC.Day15.part2(data=[2, 1, 3])
+@test 261214 == AOC.Day15.part2(data=[1, 2, 3])
+@test 6895259 == AOC.Day15.part2(data=[2, 3, 1])
+@test 18 == AOC.Day15.part2(data=[3, 2, 1])
+@test 362 == AOC.Day15.part2(data=[3, 1, 2])
+@test 2159626 == AOC.Day15.part2()
+=#
+
 end

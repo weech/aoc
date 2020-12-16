@@ -279,3 +279,38 @@ let ``D13P2`` () =
     Seq.zip samples truths 
     |> Seq.iter (fun (sample, truth) -> Assert.Equal(truth, AOC.Day13.part2 (0, sample)))
     Assert.Equal(560214575859998L, AOC.Day13.part2 (Parsers.day13()))
+
+[<Fact>]
+let ``D14P1`` () = 
+    let data = [
+            "mask = XXXXXXXXXXXXXXXXXXXXXXXXXXXXX1XXXX0X";
+            "mem[8] = 11";
+            "mem[7] = 101";
+            "mem[8] = 0"
+            ]
+    Assert.Equal(165L, AOC.Day14.part1 data)
+    Assert.Equal(10050490168421L, AOC.Day14.part1 (Parsers.day14()))
+
+[<Fact>]
+let ``D14P2`` () = 
+    let data = [
+            "mask = 000000000000000000000000000000X1001X";
+            "mem[42] = 100";
+            "mask = 00000000000000000000000000000000X0XX";
+            "mem[26] = 1";
+            ]
+    Assert.Equal(208L, AOC.Day14.part2 data)
+    //Assert.Equal(2173858456958L, AOC.Day14.part2 (Parsers.day14()))
+
+[<Fact>]
+let ``D15P1`` () = 
+    Assert.Equal(436, (AOC.Day15.part1 [0; 3; 6]))
+    Assert.Equal(1, (AOC.Day15.part1 [1; 3; 2]))
+    Assert.Equal(10, (AOC.Day15.part1 [2; 1; 3]))
+    Assert.Equal(27, (AOC.Day15.part1 [1; 2; 3]))
+    Assert.Equal(78, (AOC.Day15.part1 [2; 3; 1]))
+    Assert.Equal(438, (AOC.Day15.part1 [3; 2; 1]))
+    Assert.Equal(1836, (AOC.Day15.part1 [3; 1; 2]))
+    Assert.Equal(211, (AOC.Day15.part1 [1; 0; 15; 2; 10; 13]))
+
+// Skipping part 2 because all that changes is how long it takes
