@@ -71,4 +71,6 @@ end
 
 day14() = eachline(joinpath(DATA, "day14.txt"))
 
+day16() = split(open(f -> read(f, String), joinpath(DATA, "day16.txt")), "\n\n")
+
 end # module
