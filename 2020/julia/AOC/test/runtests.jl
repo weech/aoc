@@ -240,4 +240,14 @@ result = AOC.Day16.identify_columns(data)
 @test 11 == result["row"]
 @test 13 == result["seat"]
 @test 514662805187 == AOC.Day16.part2()
+
+# Day 17 
+data = ['.' '#' '.'
+		'.' '.' '#'
+		'#' '#' '#']
+@test 112 == AOC.Day17.part1(data=data)
+@test 395 == AOC.Day17.part1()
+@test 848 == AOC.Day17.part2(data=data)
+@test 2296 == AOC.Day17.part2()
+
 end

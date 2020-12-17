@@ -73,4 +73,9 @@ day14() = eachline(joinpath(DATA, "day14.txt"))
 
 day16() = split(open(f -> read(f, String), joinpath(DATA, "day16.txt")), "\n\n")
 
+function day17()
+	lines = eachline(joinpath(DATA, "day17.txt"))
+	hcat(map(collect, lines)...)
+end
+
 end # module

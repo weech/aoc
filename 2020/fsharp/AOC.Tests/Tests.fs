@@ -314,6 +314,7 @@ let ``D15P1`` () =
     Assert.Equal(211, (AOC.Day15.part1 [1; 0; 15; 2; 10; 13]))
 
 // Skipping part 2 because all that changes is how long it takes
+
 [<Fact>]
 let ``D16P1`` () = 
     let data = [|"class: 1-3 or 5-7
@@ -345,3 +346,4 @@ let ``D16P2`` () =
     Assert.Equal(11, Map.find "row" result)
     Assert.Equal(13, Map.find "seat" result) 
     Assert.Equal(514662805187L, AOC.Day16.part2 (AOC.Parsers.day16()))
+    
