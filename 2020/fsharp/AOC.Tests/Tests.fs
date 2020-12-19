@@ -347,3 +347,12 @@ let ``D16P2`` () =
     Assert.Equal(13, Map.find "seat" result) 
     Assert.Equal(514662805187L, AOC.Day16.part2 (AOC.Parsers.day16()))
     
+[<Fact>]
+let ``D18P1`` () =
+    Assert.Equal(71, AOC.Day18.evaluate "1 + 2 * 3 + 4 * 5 + 6")
+    Assert.Equal(52, AOC.Day18.evaluate "1 + (2 * 3) + (4 * (5 + 6))")
+    Assert.Equal(26, AOC.Day18.evaluate "2 * 3 + (4 * 5)")
+    Assert.Equal(437, AOC.Day18.evaluate "5 + (8 * 3 + 9 + 3 * 4 * 3)")
+    Assert.Equal(12240, AOC.Day18.evaluate "5 * 9 * (7 * 3 * 3 + 9 * 3 + (8 + 6 * 4))")
+    Assert.Equal(13632, AOC.Day18.evaluate "((2 + 4 * 9) * (6 + 9 * 8 + 6) + 6) + 2 + 4 * 2")
+

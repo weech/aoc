@@ -250,4 +250,20 @@ data = ['.' '#' '.'
 @test 848 == AOC.Day17.part2(data=data)
 @test 2296 == AOC.Day17.part2()
 
+# Day 18 
+@test 71 == AOC.Day18.evaluate("1 + 2 * 3 + 4 * 5 + 6")
+@test 51 == AOC.Day18.evaluate("1 + (2 * 3) + (4 * (5 + 6))")
+@test 26 == AOC.Day18.evaluate("2 * 3 + (4 * 5)")
+@test 437 == AOC.Day18.evaluate("5 + (8 * 3 + 9 + 3 * 4 * 3)")
+@test 12240 == AOC.Day18.evaluate("5 * 9 * (7 * 3 * 3 + 9 * 3 + (8 + 6 * 4))")
+@test 13632 == AOC.Day18.evaluate("((2 + 4 * 9) * (6 + 9 * 8 + 6) + 6) + 2 + 4 * 2")
+
+@test 231 == AOC.Day18.evaluate2("1 + 2 * 3 + 4 * 5 + 6")
+@test 51 == AOC.Day18.evaluate2("1 + (2 * 3) + (4 * (5 + 6))")
+@test 46 == AOC.Day18.evaluate2("2 * 3 + (4 * 5)")
+@test 1445 == AOC.Day18.evaluate2("5 + (8 * 3 + 9 + 3 * 4 * 3)")
+@test 669060 == AOC.Day18.evaluate2("5 * 9 * (7 * 3 * 3 + 9 * 3 + (8 + 6 * 4))")
+@test 23340 == AOC.Day18.evaluate2("((2 + 4 * 9) * (6 + 9 * 8 + 6) + 6) + 2 + 4 * 2")
+
+
 end
