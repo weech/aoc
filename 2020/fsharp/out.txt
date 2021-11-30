@@ -1,0 +1,1255 @@
+/home/alex/.nuget/packages/microsoft.net.test.sdk/16.5.0/build/netcoreapp2.1/Microsoft.NET.Test.Sdk.targets(46,5): warning : A 'Program.fs' file can be automatically generated for F# .NET Core test projects. To fix this warning, either delete the file from the project, or set the <GenerateProgramFile> property to 'false'. [/home/alex/code/aoc/2020/fsharp/AOC.Tests/AOC.Tests.fsproj]
+Test run for /home/alex/code/aoc/2020/fsharp/AOC.Tests/bin/Debug/netcoreapp3.1/AOC.Tests.dll(.NETCoreApp,Version=v3.1)
+Microsoft (R) Test Execution Command Line Tool Version 16.3.0-dev+55e7e45431c9c05656c999b902686e7402664573
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+
+A total of 1 test files matched the specified pattern.
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [8; 11]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Multi [Link [42]; Link [42; 8]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [42]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Multi [Link [9; 14]; Link [10; 1]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [9; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 27]; Link [1; 26]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [14; 27]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [1; 26]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Link [26]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Multi [Link [14; 22]; Link [1; 20]]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Link [14; 22]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Link [1; 20]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Link [20]
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Multi [Link [14; 14]; Link [1; 15]]
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Link [14; 14]
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Link [1; 15]
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Link [15]
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Multi [Link [1]; Link [14]]
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Link [1]
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Link [14]
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [10; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Multi [Link [23; 14]; Link [28; 1]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [23; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Multi [Link [25; 1]; Link [22; 14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [25; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Multi [Link [1; 1]; Link [1; 14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [1; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [1; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [22; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Link [14]
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [28; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [16; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Multi [Link [15; 1]; Link [14; 14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [15; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Link [1]
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [42; 8]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Multi [Link [9; 14]; Link [10; 1]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [9; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 27]; Link [1; 26]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [14; 27]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [1; 26]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Link [26]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Multi [Link [14; 22]; Link [1; 20]]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Link [14; 22]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Link [1; 20]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Link [20]
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Multi [Link [14; 14]; Link [1; 15]]
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Link [14; 14]
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Link [1; 15]
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Link [15]
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Multi [Link [1]; Link [14]]
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Link [1]
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Link [14]
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [10; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Multi [Link [23; 14]; Link [28; 1]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [23; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Multi [Link [25; 1]; Link [22; 14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [25; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Multi [Link [1; 1]; Link [1; 14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [1; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [1; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [22; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Link [14]
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [28; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [16; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Multi [Link [15; 1]; Link [14; 14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [15; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a';
+ 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b';
+ 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Link [1]
+Checking ['a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a';
+ 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [8]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [42]; Link [42; 8]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [42]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [9; 14]; Link [10; 1]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [9; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 27]; Link [1; 26]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 27]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [27]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1; 6]; Link [14; 18]]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 6]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 18]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [18]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [15; 15]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [15]
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 26]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [10; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [23; 14]; Link [28; 1]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [23; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [25; 1]; Link [22; 14]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [25; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1; 1]; Link [1; 14]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [22; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [28; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [16; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [15; 1]; Link [14; 14]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [15; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [42; 8]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [9; 14]; Link [10; 1]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [9; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 27]; Link [1; 26]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 27]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [27]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1; 6]; Link [14; 18]]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 6]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 18]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [18]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [15; 15]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [15]
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 26]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [10; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [23; 14]; Link [28; 1]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [23; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [25; 1]; Link [22; 14]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [25; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1; 1]; Link [1; 14]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [22; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [28; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [16; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [15; 1]; Link [14; 14]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [15; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [8]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [42]; Link [42; 8]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [42]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [9; 14]; Link [10; 1]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [9; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 27]; Link [1; 26]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 27]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 26]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [26]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 22]; Link [1; 20]]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 22]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 20]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [20]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 14]; Link [1; 15]]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 15]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [15]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [10; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [23; 14]; Link [28; 1]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [23; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [25; 1]; Link [22; 14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [25; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1; 1]; Link [1; 14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [22; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [28; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [16; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [15; 1]; Link [14; 14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [15; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [42; 8]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [9; 14]; Link [10; 1]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [9; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 27]; Link [1; 26]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 27]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 26]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [26]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 22]; Link [1; 20]]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 22]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 20]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [20]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 14]; Link [1; 15]]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 15]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [15]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [10; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [23; 14]; Link [28; 1]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [23; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [25; 1]; Link [22; 14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [25; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1; 1]; Link [1; 14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [22; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [28; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [16; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [15; 1]; Link [14; 14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [15; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [8]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [42]; Link [42; 8]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [42]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [9; 14]; Link [10; 1]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [9; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 27]; Link [1; 26]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 27]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'a'] against Link [27]
+Checking ['a'; 'b'; 'a'; 'a'] against Multi [Link [1; 6]; Link [14; 18]]
+Checking ['a'; 'b'; 'a'; 'a'] against Link [1; 6]
+Checking ['a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'] against Link [6]
+Checking ['b'; 'a'; 'a'] against Multi [Link [14; 14]; Link [1; 14]]
+Checking ['b'; 'a'; 'a'] against Link [14; 14]
+Checking ['b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'] against Link [14]
+Checking ['a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'] against Link [1; 14]
+Checking ['b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'a'; 'a'] against Link [14; 18]
+Checking ['a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 26]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [10; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [23; 14]; Link [28; 1]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [23; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [25; 1]; Link [22; 14]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [25; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1; 1]; Link [1; 14]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [22; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [28; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [16; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [15; 1]; Link [14; 14]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [15; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'] against Link [1]
+Checking ['b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [42; 8]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [9; 14]; Link [10; 1]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [9; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 27]; Link [1; 26]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 27]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'a'] against Link [27]
+Checking ['a'; 'b'; 'a'; 'a'] against Multi [Link [1; 6]; Link [14; 18]]
+Checking ['a'; 'b'; 'a'; 'a'] against Link [1; 6]
+Checking ['a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'] against Link [6]
+Checking ['b'; 'a'; 'a'] against Multi [Link [14; 14]; Link [1; 14]]
+Checking ['b'; 'a'; 'a'] against Link [14; 14]
+Checking ['b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'] against Link [14]
+Checking ['a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'] against Link [1; 14]
+Checking ['b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'a'; 'a'] against Link [14; 18]
+Checking ['a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 26]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [10; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [23; 14]; Link [28; 1]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [23; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [25; 1]; Link [22; 14]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [25; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1; 1]; Link [1; 14]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [22; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [28; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [16; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [15; 1]; Link [14; 14]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [15; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'] against Link [1]
+Checking ['b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [11]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [42; 31]; Link [42; 11; 31]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [42; 31]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [9; 14]; Link [10; 1]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [9; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 27]; Link [1; 26]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 27]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [27]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1; 6]; Link [14; 18]]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 6]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 18]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [18]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [15; 15]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [15]
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 26]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [10; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [23; 14]; Link [28; 1]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [23; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [25; 1]; Link [22; 14]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [25; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1; 1]; Link [1; 14]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [22; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [28; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [16; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [15; 1]; Link [14; 14]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [15; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [31]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 17]; Link [1; 13]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 17]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 13]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [13]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 3]; Link [1; 12]]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 3]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 12]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [12]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [24; 14]; Link [19; 1]]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [24; 14]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 1]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [19; 1]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 1]; Link [14; 14]]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 1]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [42; 11; 31]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [9; 14]; Link [10; 1]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [9; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 27]; Link [1; 26]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 27]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [27]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1; 6]; Link [14; 18]]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 6]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 18]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [18]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [15; 15]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [15]
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 26]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [10; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [23; 14]; Link [28; 1]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [23; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [25; 1]; Link [22; 14]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [25; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1; 1]; Link [1; 14]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [22; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [28; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [16; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [15; 1]; Link [14; 14]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [15; 1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [11; 31]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [42; 31]; Link [42; 11; 31]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [42; 31]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [9; 14]; Link [10; 1]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [9; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 27]; Link [1; 26]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 27]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 26]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [26]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 22]; Link [1; 20]]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 22]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 20]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [20]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 14]; Link [1; 15]]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 15]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [15]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [10; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [23; 14]; Link [28; 1]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [23; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [25; 1]; Link [22; 14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [25; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1; 1]; Link [1; 14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [22; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [28; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [16; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [15; 1]; Link [14; 14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [15; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [31]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 17]; Link [1; 13]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 17]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'a'] against Link [17]
+Checking ['a'; 'b'; 'a'; 'a'] against Multi [Link [14; 2]; Link [1; 7]]
+Checking ['a'; 'b'; 'a'; 'a'] against Link [14; 2]
+Checking ['a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'a'] against Link [1; 7]
+Checking ['a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'] against Link [7]
+Checking ['b'; 'a'; 'a'] against Multi [Link [14; 5]; Link [1; 21]]
+Checking ['b'; 'a'; 'a'] against Link [14; 5]
+Checking ['b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'] against Link [5]
+Checking ['a'; 'a'] against Multi [Link [1; 14]; Link [15; 1]]
+Checking ['a'; 'a'] against Link [1; 14]
+Checking ['a'; 'a'] against Literal 'a'
+Checking ['a'] against Link [14]
+Checking ['a'] against Literal 'b'
+Checking ['a'; 'a'] against Link [15; 1]
+Checking ['a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['a'; 'a'] against Link [1]
+Checking ['a'; 'a'] against Literal 'a'
+Checking ['a'] against Link []
+Checking ['a'; 'a'] against Link [14]
+Checking ['a'; 'a'] against Literal 'b'
+Checking ['a'] against Link [1]
+Checking ['a'] against Literal 'a'
+Checking [] against Link []
+Checking [] against Link []
+Checking ['b'; 'a'; 'a'] against Link [1; 21]
+Checking ['b'; 'a'; 'a'] against Literal 'a'
+Checking [] against Link []
+Checking [] against Link []
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 13]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking [] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [42; 11; 31]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [9; 14]; Link [10; 1]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [9; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 27]; Link [1; 26]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 27]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 26]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [26]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 22]; Link [1; 20]]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 22]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 20]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [20]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 14]; Link [1; 15]]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 15]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [15]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [10; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [23; 14]; Link [28; 1]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [23; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [25; 1]; Link [22; 14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [25; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1; 1]; Link [1; 14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [22; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [28; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [16; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [15; 1]; Link [14; 14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [15; 1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [11; 31]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [42; 31]; Link [42; 11; 31]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [42; 31]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [9; 14]; Link [10; 1]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [9; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 27]; Link [1; 26]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 27]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'a'] against Link [27]
+Checking ['a'; 'b'; 'a'; 'a'] against Multi [Link [1; 6]; Link [14; 18]]
+Checking ['a'; 'b'; 'a'; 'a'] against Link [1; 6]
+Checking ['a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'] against Link [6]
+Checking ['b'; 'a'; 'a'] against Multi [Link [14; 14]; Link [1; 14]]
+Checking ['b'; 'a'; 'a'] against Link [14; 14]
+Checking ['b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'] against Link [14]
+Checking ['a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'] against Link [1; 14]
+Checking ['b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'a'; 'a'] against Link [14; 18]
+Checking ['a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 26]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [10; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [23; 14]; Link [28; 1]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [23; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [25; 1]; Link [22; 14]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [25; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1; 1]; Link [1; 14]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [22; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [28; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [16; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [15; 1]; Link [14; 14]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [15; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'] against Link [1]
+Checking ['b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [42; 11; 31]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [9; 14]; Link [10; 1]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [9; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [14; 27]; Link [1; 26]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 27]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'a'] against Link [27]
+Checking ['a'; 'b'; 'a'; 'a'] against Multi [Link [1; 6]; Link [14; 18]]
+Checking ['a'; 'b'; 'a'; 'a'] against Link [1; 6]
+Checking ['a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'] against Link [6]
+Checking ['b'; 'a'; 'a'] against Multi [Link [14; 14]; Link [1; 14]]
+Checking ['b'; 'a'; 'a'] against Link [14; 14]
+Checking ['b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'a'] against Link [14]
+Checking ['a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'] against Link [1; 14]
+Checking ['b'; 'a'; 'a'] against Literal 'a'
+Checking ['a'; 'b'; 'a'; 'a'] against Link [14; 18]
+Checking ['a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 26]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [10; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [23; 14]; Link [28; 1]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [23; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [25; 1]; Link [22; 14]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [25; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1; 1]; Link [1; 14]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [1; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [22; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [28; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [16; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [15; 1]; Link [14; 14]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [15; 1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Multi [Link [1]; Link [14]]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'a'] against Link []
+Checking ['a'; 'b'; 'a'; 'a'] against Link [1]
+Checking ['a'; 'b'; 'a'; 'a'] against Literal 'a'
+Checking ['b'; 'a'; 'a'] against Link []
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Link [14; 14]
+Checking ['b'; 'a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['a'; 'b'; 'a'; 'a'] against Link [14]
+Checking ['a'; 'b'; 'a'; 'a'] against Literal 'b'
+Checking ['b'; 'a'; 'a'] against Link [1]
+Checking ['b'; 'a'; 'a'] against Literal 'a'
+Checking [] against Link [31]
+Filtered [31]
+Checking [] against Link []
+Match status for ['a'; 'a'; 'a'; 'a'; 'a'; 'b'; 'b'; 'a'; 'a'; 'b'; 'a'; 'a'; 'a'; 'a'; 'a'; 'b';
+ 'a'; 'b'; 'a'; 'a']: true + []
+  X Tests.D19P2 [927ms]
+  Error Message:
+   Assert.Equal() Failure
+Expected: 12
+Actual:   1
+  Stack Trace:
+     at Tests.D19P2() in /home/alex/code/aoc/2020/fsharp/AOC.Tests/Tests.fs:line 380
+
+Total tests: 32
+     Passed: 31
+     Failed: 1
+ Total time: 6.3174 Seconds

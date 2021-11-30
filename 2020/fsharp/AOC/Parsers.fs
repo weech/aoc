@@ -79,3 +79,18 @@ module Parsers =
         let file = System.IO.Path.Combine [| DATA; "day16.txt" |]
                     |> System.IO.File.ReadAllText 
         file.Split([|"\n\n"|], StringSplitOptions.RemoveEmptyEntries)
+
+    let day19General path = 
+        let file = System.IO.Path.Combine [| DATA; path |]
+                    |> System.IO.File.ReadAllText 
+        let splat = file.Split([|"\n\n"|], StringSplitOptions.RemoveEmptyEntries)
+        let rules = splat.[0].Split([|'\n'|], StringSplitOptions.RemoveEmptyEntries)
+        let messages = splat.[1].Split([|'\n'|], StringSplitOptions.RemoveEmptyEntries)
+        rules, messages
+
+
+    let day19() = 
+        day19General "day19.txt"
+    
+    let day19Test() = 
+        day19General "day19_test.txt"

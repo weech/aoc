@@ -346,7 +346,7 @@ let ``D16P2`` () =
     Assert.Equal(11, Map.find "row" result)
     Assert.Equal(13, Map.find "seat" result) 
     Assert.Equal(514662805187L, AOC.Day16.part2 (AOC.Parsers.day16()))
-    
+(*    
 [<Fact>]
 let ``D18P1`` () =
     Assert.Equal(71, AOC.Day18.evaluate "1 + 2 * 3 + 4 * 5 + 6")
@@ -355,4 +355,27 @@ let ``D18P1`` () =
     Assert.Equal(437, AOC.Day18.evaluate "5 + (8 * 3 + 9 + 3 * 4 * 3)")
     Assert.Equal(12240, AOC.Day18.evaluate "5 * 9 * (7 * 3 * 3 + 9 * 3 + (8 + 6 * 4))")
     Assert.Equal(13632, AOC.Day18.evaluate "((2 + 4 * 9) * (6 + 9 * 8 + 6) + 6) + 2 + 4 * 2")
+*)
 
+(*[<Fact>]
+let ``D19P1`` () =
+    let data = (["0: 4 1 5";
+                "1: 2 3 | 3 2";
+                "2: 4 4 | 5 5";
+                "3: 4 5 | 5 4";
+                "4: \"a\"";
+                "5: \"b\""],
+                ["ababbb";
+                "bababa";
+                "abbbab";
+                "aaabbb";
+                "aaaabbb"])
+    Assert.Equal(2, AOC.Day19.part1 data)
+    Assert.Equal(124, AOC.Day19.part1 (AOC.Parsers.day19()))
+*)
+[<Fact>]
+let ``D19P2`` () =
+    let data = AOC.Parsers.day19Test()
+    //Assert.Equal(3, AOC.Day19.part1 data)
+    Assert.Equal(12, AOC.Day19.part2 data)
+    //Assert.Equal(124, AOC.Day19.part2 (AOC.Parsers.day19()))
