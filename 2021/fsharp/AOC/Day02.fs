@@ -1,5 +1,7 @@
 module AOC.Day02
 
+open System
+
 type Instruction =
     | Forward of int 
     | Down of int 
@@ -10,12 +12,12 @@ type Location = {Depth: int; Position: int; Aim: int}
 let makeInstruction (phrase: string) =
     let words = phrase.Split(' ')
     let count = int words[1]
-    if words[0] = "forward" then 
-        Forward count
-    elif words[0] = "down" then 
-        Down count 
-    else 
-        Up count 
+    match words[0] with 
+    | "forward" -> Forward count 
+    | "down" -> Down count 
+    | "up" -> Up count
+    | _ -> raise (ArgumentException "Unknown instruction")
+
 
 let moveNaive current instruction = 
     match instruction with 
