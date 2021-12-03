@@ -68,3 +68,41 @@ let ``D2P2`` () =
 
     Assert.Equal(900, Day02.part2 data)
     Assert.Equal(2134882034, Day02.part2 (Parsers.day02 ()))
+
+[<Fact>]
+let ``D3P1`` () =
+    let data =
+        [| "00100"
+           "11110"
+           "10110"
+           "10111"
+           "10101"
+           "01111"
+           "00111"
+           "11100"
+           "10000"
+           "11001"
+           "00010"
+           "01010" |]
+
+    Assert.Equal(198, Day03.part1 data)
+    Assert.Equal(749376, Day03.part1 (Parsers.day03 ()))
+
+[<Fact>]
+let ``D3P2`` () =
+    let data =
+        [| "00100"
+           "11110"
+           "10110"
+           "10111"
+           "10101"
+           "01111"
+           "00111"
+           "11100"
+           "10000"
+           "11001"
+           "00010"
+           "01010" |]
+
+    Assert.Equal(230, Day03.part2 data)
+    Assert.Equal(2372923, Day03.part2 (Parsers.day03 ()))
