@@ -168,3 +168,37 @@ let ``D4P2`` () =
     Assert.Equal(1924, Day04.part2 calls boards)
     let (calls, boards) = Parsers.day04 ()
     Assert.Equal(2730, Day04.part2 calls boards)
+
+[<Fact>]
+let ``D5P1`` () =
+    let data = 
+        "0,9 -> 5,9
+8,0 -> 0,8
+9,4 -> 3,4
+2,2 -> 2,1
+7,0 -> 7,4
+6,4 -> 2,0
+0,9 -> 2,9
+3,4 -> 1,4
+0,0 -> 8,8
+5,5 -> 8,2".Split('\n')
+
+    Assert.Equal(5, Day05.part1 data)
+    Assert.Equal(6856, Day05.part1 (Parsers.day05 ()))
+
+[<Fact>]
+let ``D5P2`` () =
+    let data = 
+        "0,9 -> 5,9
+8,0 -> 0,8
+9,4 -> 3,4
+2,2 -> 2,1
+7,0 -> 7,4
+6,4 -> 2,0
+0,9 -> 2,9
+3,4 -> 1,4
+0,0 -> 8,8
+5,5 -> 8,2".Split('\n')
+
+    Assert.Equal(12, Day05.part2 data)
+    Assert.Equal(20666, Day05.part2 (Parsers.day05 ()))

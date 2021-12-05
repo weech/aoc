@@ -22,7 +22,7 @@ let checkBoard call board =
         {board with Wins = Array.init (WIDTH*2)
                 (fun idx -> 
                     if idx = row then board.Wins[idx] + 1 
-                    elif idx = col + WIDTH  then board.Wins[idx] + 1
+                    elif idx = col + WIDTH then board.Wins[idx] + 1
                     else board.Wins[idx])}
     | None -> board
   

@@ -36,3 +36,8 @@ module Parsers =
         let calls = (doubles[0]).Split(',') |> Seq.map int |> Array.ofSeq
         let boards = doubles[1..]
         (calls, boards)
+
+    let day05 () =
+        System.IO.Path.Combine [| DATA
+                                  "day05.txt" |]
+        |> System.IO.File.ReadLines
