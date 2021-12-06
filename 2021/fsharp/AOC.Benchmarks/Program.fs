@@ -10,7 +10,9 @@ type AOCPerformance() =
     let data2b = Parsers.day02()
     let data3 = Parsers.day03()
     let (turns, boards) = Parsers.day04()
+    let data5 = Parsers.day05()
 
+    (*
     [<Benchmark>]
     member this.D1P1() = Day01.part1 data1
     [<Benchmark>]
@@ -30,6 +32,12 @@ type AOCPerformance() =
     member this.D4P1() = Day04.part1 turns boards
     [<Benchmark>]
     member this.D4P2() = Day04.part2 turns boards
+    *)
+
+    [<Benchmark>]
+    member this.D5P1() = Day05.part1 data5
+    [<Benchmark>]
+    member this.D5P2() = Day05.part2 data5
 
 [<EntryPoint>]
 let main argv =

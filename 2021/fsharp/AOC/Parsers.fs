@@ -41,3 +41,14 @@ module Parsers =
         System.IO.Path.Combine [| DATA
                                   "day05.txt" |]
         |> System.IO.File.ReadLines
+
+    let split (c: char) (str: string) = str.Split(c)
+
+    let day06 () =
+        System.IO.Path.Combine [| DATA
+                                  "day06.txt" |]
+        |> System.IO.File.ReadLines
+        |> Seq.exactlyOne
+        |> split ','
+        |> Seq.map uint64
+        |> List.ofSeq
