@@ -216,3 +216,17 @@ let ``D6P2`` () =
 
     Assert.Equal(26984457539UL, Day06.part2 data)
     Assert.Equal(1589590444365UL, Day06.part2 (Parsers.day06 ()))
+
+[<Fact>]
+let ``D7P1`` () =
+    let data = "16,1,2,0,4,2,7,1,2,14".Split(',') |> Array.map int
+
+    Assert.Equal(37, Day07.part1 data)
+    Assert.Equal(355764, Day07.part1 (Parsers.day07 ()))
+
+[<Fact>]
+let ``D7P2`` () =
+    let data = "16,1,2,0,4,2,7,1,2,14".Split(',') |> Array.map int
+
+    Assert.Equal(168, Day07.part2 data)
+    Assert.Equal(99634572, Day07.part2 (Parsers.day07 ()))

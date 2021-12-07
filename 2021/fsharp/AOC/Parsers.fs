@@ -52,3 +52,10 @@ module Parsers =
         |> split ','
         |> Seq.map uint64
         |> List.ofSeq
+
+    let day07 () =
+        System.IO.Path.Combine [| DATA
+                                  "day07.txt" |]
+        |> System.IO.File.ReadAllText
+        |> split ',' 
+        |> Array.map int
