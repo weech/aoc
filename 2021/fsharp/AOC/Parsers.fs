@@ -59,3 +59,8 @@ module Parsers =
         |> System.IO.File.ReadAllText
         |> split ',' 
         |> Array.map int
+
+    let day08 () =
+        System.IO.Path.Combine [| DATA
+                                  "day08.txt" |]
+        |> System.IO.File.ReadLines

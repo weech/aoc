@@ -171,7 +171,7 @@ let ``D4P2`` () =
 
 [<Fact>]
 let ``D5P1`` () =
-    let data = 
+    let data =
         "0,9 -> 5,9
 8,0 -> 0,8
 9,4 -> 3,4
@@ -181,14 +181,15 @@ let ``D5P1`` () =
 0,9 -> 2,9
 3,4 -> 1,4
 0,0 -> 8,8
-5,5 -> 8,2".Split('\n')
+5,5 -> 8,2"
+            .Split('\n')
 
     Assert.Equal(5, Day05.part1 data)
     Assert.Equal(6856, Day05.part1 (Parsers.day05 ()))
 
 [<Fact>]
 let ``D5P2`` () =
-    let data = 
+    let data =
         "0,9 -> 5,9
 8,0 -> 0,8
 9,4 -> 3,4
@@ -198,35 +199,80 @@ let ``D5P2`` () =
 0,9 -> 2,9
 3,4 -> 1,4
 0,0 -> 8,8
-5,5 -> 8,2".Split('\n')
+5,5 -> 8,2"
+            .Split('\n')
 
     Assert.Equal(12, Day05.part2 data)
     Assert.Equal(20666, Day05.part2 (Parsers.day05 ()))
 
 [<Fact>]
 let ``D6P1`` () =
-    let data = "3,4,3,1,2".Split(',') |> Seq.map uint64 |> List.ofSeq
+    let data =
+        "3,4,3,1,2".Split(',')
+        |> Seq.map uint64
+        |> List.ofSeq
 
     Assert.Equal(5934UL, Day06.part1 data)
     Assert.Equal(349549UL, Day06.part1 (Parsers.day06 ()))
 
 [<Fact>]
 let ``D6P2`` () =
-    let data = "3,4,3,1,2".Split(',') |> Seq.map uint64 |> List.ofSeq
+    let data =
+        "3,4,3,1,2".Split(',')
+        |> Seq.map uint64
+        |> List.ofSeq
 
     Assert.Equal(26984457539UL, Day06.part2 data)
     Assert.Equal(1589590444365UL, Day06.part2 (Parsers.day06 ()))
 
 [<Fact>]
 let ``D7P1`` () =
-    let data = "16,1,2,0,4,2,7,1,2,14".Split(',') |> Array.map int
+    let data =
+        "16,1,2,0,4,2,7,1,2,14".Split(',')
+        |> Array.map int
 
     Assert.Equal(37, Day07.part1 data)
     Assert.Equal(355764, Day07.part1 (Parsers.day07 ()))
 
 [<Fact>]
 let ``D7P2`` () =
-    let data = "16,1,2,0,4,2,7,1,2,14".Split(',') |> Array.map int
+    let data =
+        "16,1,2,0,4,2,7,1,2,14".Split(',')
+        |> Array.map int
 
     Assert.Equal(168, Day07.part2 data)
     Assert.Equal(99634572, Day07.part2 (Parsers.day07 ()))
+
+[<Fact>]
+let ``D8P1`` () =
+    let data =
+        [ "be cfbegad cbdgef fgaecd cgeb fdcge agebfd fecdb fabcd edb | fdgacbe cefdb cefbgd gcbe"
+          "edbfga begcd cbg gc gcadebf fbgde acbgfd abcde gfcbed gfec | fcgedb cgb dgebacf gc"
+          "fgaebd cg bdaec gdafb agbcfd gdcbef bgcad gfac gcb cdgabef | cg cg fdcagb cbg"
+          "fbegcd cbd adcefb dageb afcb bc aefdc ecdab fgdeca fcdbega | efabcd cedba gadfec cb"
+          "aecbfdg fbg gf bafeg dbefa fcge gcbea fcaegb dgceab fcbdga | gecf egdcabf bgf bfgea"
+          "fgeab ca afcebg bdacfeg cfaedg gcfdb baec bfadeg bafgc acf | gebdcfa ecba ca fadegcb"
+          "dbcfg fgd bdegcaf fgec aegbdf ecdfab fbedc dacgb gdcebf gf | cefg dcbef fcge gbcadfe"
+          "bdfegc cbegaf gecbf dfcage bdacg ed bedf ced adcbefg gebcd | ed bcgafe cdgba cbgef"
+          "egadfb cdbfeg cegd fecab cgb gbdefca cg fgcdab egfdb bfceg | gbdfcae bgc cg cgb"
+          "gcafb gcf dcaebfg ecagb gf abcdeg gaef cafbge fdbac fegbdc | fgae cfgab fg bagce" ]
+
+    Assert.Equal(26, Day08.part1 data)
+    Assert.Equal(355, Day08.part1 (Parsers.day08 ()))
+
+[<Fact>]
+let ``D8P2`` () =
+    let data =
+        [ "be cfbegad cbdgef fgaecd cgeb fdcge agebfd fecdb fabcd edb | fdgacbe cefdb cefbgd gcbe"
+          "edbfga begcd cbg gc gcadebf fbgde acbgfd abcde gfcbed gfec | fcgedb cgb dgebacf gc"
+          "fgaebd cg bdaec gdafb agbcfd gdcbef bgcad gfac gcb cdgabef | cg cg fdcagb cbg"
+          "fbegcd cbd adcefb dageb afcb bc aefdc ecdab fgdeca fcdbega | efabcd cedba gadfec cb"
+          "aecbfdg fbg gf bafeg dbefa fcge gcbea fcaegb dgceab fcbdga | gecf egdcabf bgf bfgea"
+          "fgeab ca afcebg bdacfeg cfaedg gcfdb baec bfadeg bafgc acf | gebdcfa ecba ca fadegcb"
+          "dbcfg fgd bdegcaf fgec aegbdf ecdfab fbedc dacgb gdcebf gf | cefg dcbef fcge gbcadfe"
+          "bdfegc cbegaf gecbf dfcage bdacg ed bedf ced adcbefg gebcd | ed bcgafe cdgba cbgef"
+          "egadfb cdbfeg cegd fecab cgb gbdefca cg fgcdab egfdb bfceg | gbdfcae bgc cg cgb"
+          "gcafb gcf dcaebfg ecagb gf abcdeg gaef cafbge fdbac fegbdc | fgae cfgab fg bagce" ]
+
+    Assert.Equal(61229, Day08.part2 data)
+    Assert.Equal(983030, Day08.part2 (Parsers.day08 ()))

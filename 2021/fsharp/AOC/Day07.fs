@@ -36,8 +36,8 @@ let loopy data =
 
 let part2 data =
     let result = loopy data
-    printfn "The middle position is %d" (fst result)
-    printfn "The mean is %f" (findMean data)
+    //printfn "The middle position is %d" (fst result)
+    //printfn "The mean is %f" (findMean data)
     // For whatever reason my example matches the rounded mean
     // but the actual input is the floored mean
     snd result
