@@ -64,3 +64,9 @@ module Parsers =
         System.IO.Path.Combine [| DATA
                                   "day08.txt" |]
         |> System.IO.File.ReadLines
+
+    let day09 () =
+        System.IO.Path.Combine [| DATA
+                                  "day09.txt" |]
+        |> System.IO.File.ReadLines
+        |> List.ofSeq
