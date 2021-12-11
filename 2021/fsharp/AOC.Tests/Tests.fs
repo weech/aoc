@@ -334,3 +334,37 @@ let ``D10P2`` () =
 
     Assert.Equal(288957uL, Day10.part2 data)
     Assert.Equal(2380061249uL, Day10.part2 (Parsers.day10 ()))
+
+[<Fact>]
+let ``D11P1`` () =
+    let data =
+        [ "5483143223"
+          "2745854711"
+          "5264556173"
+          "6141336146"
+          "6357385478"
+          "4167524645"
+          "2176841721"
+          "6882881134"
+          "4846848554"
+          "5283751526" ]
+
+    Assert.Equal(1656, Day11.part1 data)
+    Assert.Equal(1694, Day11.part1 (Parsers.day11 ()))
+
+[<Fact>]
+let ``D11P2`` () =
+    let data =
+        [ "5483143223"
+          "2745854711"
+          "5264556173"
+          "6141336146"
+          "6357385478"
+          "4167524645"
+          "2176841721"
+          "6882881134"
+          "4846848554"
+          "5283751526" ]
+
+    Assert.Equal(195, Day11.part2 data)
+    Assert.Equal(346, Day11.part2 (Parsers.day11 ()))
