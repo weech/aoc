@@ -368,3 +368,105 @@ let ``D11P2`` () =
 
     Assert.Equal(195, Day11.part2 data)
     Assert.Equal(346, Day11.part2 (Parsers.day11 ()))
+
+[<Fact>]
+let ``D12P1`` () =
+    let example1 =
+        [ "start-A"
+          "start-b"
+          "A-c"
+          "A-b"
+          "b-d"
+          "A-end"
+          "b-end" ]
+
+    Assert.Equal(10, Day12.part1 example1)
+
+    let example2 =
+        [ "dc-end"
+          "HN-start"
+          "start-kj"
+          "dc-start"
+          "dc-HN"
+          "LN-dc"
+          "HN-end"
+          "kj-sa"
+          "kj-HN"
+          "kj-dc" ]
+
+    Assert.Equal(19, Day12.part1 example2)
+
+    let example3 =
+        [ "fs-end"
+          "he-DX"
+          "fs-he"
+          "start-DX"
+          "pj-DX"
+          "end-zg"
+          "zg-sl"
+          "zg-pj"
+          "pj-he"
+          "RW-he"
+          "fs-DX"
+          "pj-RW"
+          "zg-RW"
+          "start-pj"
+          "he-WI"
+          "zg-he"
+          "pj-fs"
+          "start-RW" ]
+
+    Assert.Equal(226, Day12.part1 example3)
+
+    Assert.Equal(5104, Day12.part1 (Parsers.day12 ()))
+
+[<Fact>]
+let ``D12P2`` () =
+    let example1 =
+        [ "start-A"
+          "start-b"
+          "A-c"
+          "A-b"
+          "b-d"
+          "A-end"
+          "b-end" ]
+
+    Assert.Equal(36, Day12.part2 example1)
+
+    let example2 =
+        [ "dc-end"
+          "HN-start"
+          "start-kj"
+          "dc-start"
+          "dc-HN"
+          "LN-dc"
+          "HN-end"
+          "kj-sa"
+          "kj-HN"
+          "kj-dc" ]
+
+    Assert.Equal(103, Day12.part2 example2)
+
+    let example3 =
+        [ "fs-end"
+          "he-DX"
+          "fs-he"
+          "start-DX"
+          "pj-DX"
+          "end-zg"
+          "zg-sl"
+          "zg-pj"
+          "pj-he"
+          "RW-he"
+          "fs-DX"
+          "pj-RW"
+          "zg-RW"
+          "start-pj"
+          "he-WI"
+          "zg-he"
+          "pj-fs"
+          "start-RW" ]
+
+    Assert.Equal(3509, Day12.part2 example3)
+
+    Assert.Equal(149220, Day12.part2 (Parsers.day12 ()))
