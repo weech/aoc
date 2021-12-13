@@ -470,3 +470,70 @@ let ``D12P2`` () =
     Assert.Equal(3509, Day12.part2 example3)
 
     Assert.Equal(149220, Day12.part2 (Parsers.day12 ()))
+
+[<Fact>]
+let ``D13P1`` () =
+    let paper =
+        "6,10
+0,14
+9,10
+0,3
+10,4
+4,11
+6,0
+6,12
+4,1
+0,13
+10,12
+3,4
+3,0
+8,4
+1,10
+2,14
+8,10
+9,0"
+            .Split('\n')
+
+    let folds =
+        "fold along y=7
+fold along x=5"
+            .Split('\n')
+
+    Assert.Equal(17, Day13.part1 paper folds)
+    //let (inPaper, inFolds) = Parsers.day13()
+    //Assert.Equal(763, Day13.part1 inPaper inFolds)
+
+(*[<Fact>]
+let ``D13P2`` () =
+    let paper =
+        "6,10
+0,14
+9,10
+0,3
+10,4
+4,11
+6,0
+6,12
+4,1
+0,13
+10,12
+3,4
+3,0
+8,4
+1,10
+2,14
+8,10
+9,0"
+            .Split('\n')
+
+    let folds =
+        "fold along y=7
+fold along x=5"
+            .Split('\n')
+    let output = Day13.part2 paper folds 
+    printfn "%s" output // Prints a box pattern
+    let (inPaper, inFolds) = Parsers.day13()
+    let output2 = Day13.part2 inPaper inFolds 
+    printfn "%s" output2 // Prints RHALRCRA
+    Assert.Equal(0, 0)
+    *)
