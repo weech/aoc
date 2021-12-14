@@ -500,8 +500,8 @@ fold along x=5"
             .Split('\n')
 
     Assert.Equal(17, Day13.part1 paper folds)
-    //let (inPaper, inFolds) = Parsers.day13()
-    //Assert.Equal(763, Day13.part1 inPaper inFolds)
+//let (inPaper, inFolds) = Parsers.day13()
+//Assert.Equal(763, Day13.part1 inPaper inFolds)
 
 (*[<Fact>]
 let ``D13P2`` () =
@@ -530,10 +530,64 @@ let ``D13P2`` () =
         "fold along y=7
 fold along x=5"
             .Split('\n')
-    let output = Day13.part2 paper folds 
+    let output = Day13.part2 paper folds
     printfn "%s" output // Prints a box pattern
     let (inPaper, inFolds) = Parsers.day13()
-    let output2 = Day13.part2 inPaper inFolds 
+    let output2 = Day13.part2 inPaper inFolds
     printfn "%s" output2 // Prints RHALRCRA
     Assert.Equal(0, 0)
     *)
+
+[<Fact>]
+let ``D14P1`` () =
+    let seed = "NNCB"
+
+    let rules =
+        "CH -> B
+HH -> N
+CB -> H
+NH -> C
+HB -> C
+HC -> B
+HN -> C
+NN -> C
+BH -> H
+NC -> B
+NB -> B
+BN -> B
+BB -> N
+BC -> B
+CC -> N
+CN -> C"
+            .Split('\n')
+
+    Assert.Equal(1588uL, Day14.part1 seed rules)
+    let (seed2, rules2) = Parsers.day14 ()
+    Assert.Equal(2745uL, Day14.part1 seed2 rules2)
+
+[<Fact>]
+let ``D14P2`` () =
+    let seed = "NNCB"
+
+    let rules =
+        "CH -> B
+HH -> N
+CB -> H
+NH -> C
+HB -> C
+HC -> B
+HN -> C
+NN -> C
+BH -> H
+NC -> B
+NB -> B
+BN -> B
+BB -> N
+BC -> B
+CC -> N
+CN -> C"
+            .Split('\n')
+
+    Assert.Equal(2188189693529uL, Day14.part2 seed rules)
+    let (seed2, rules2) = Parsers.day14 ()
+    Assert.Equal(3420801168962uL, Day14.part2 seed2 rules2)

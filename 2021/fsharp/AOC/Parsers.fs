@@ -93,3 +93,10 @@ module Parsers =
             |> System.IO.File.ReadAllText
         let doubles = file.Split([|"\n\n"|], StringSplitOptions.RemoveEmptyEntries)
         (doubles.[0].Split('\n'), doubles.[1].Split('\n', StringSplitOptions.RemoveEmptyEntries))
+
+    let day14 () = 
+        let file = 
+            System.IO.Path.Combine [| DATA; "day14.txt" |]
+            |> System.IO.File.ReadAllText
+        let doubles = file.Split([|"\n\n"|], StringSplitOptions.RemoveEmptyEntries)
+        (doubles.[0], doubles.[1].Split('\n', StringSplitOptions.RemoveEmptyEntries))
