@@ -591,3 +591,39 @@ CN -> C"
     Assert.Equal(2188189693529uL, Day14.part2 seed rules)
     let (seed2, rules2) = Parsers.day14 ()
     Assert.Equal(3420801168962uL, Day14.part2 seed2 rules2)
+
+[<Fact>]
+let ``D15P1`` () =
+    let data =
+        "1163751742
+1381373672
+2136511328
+3694931569
+7463417111
+1319128137
+1359912421
+3125421639
+1293138521
+2311944581"
+            .Split('\n', StringSplitOptions.TrimEntries) |> List.ofArray
+
+    Assert.Equal(40, Day15.part1 data)
+    Assert.Equal(811, Day15.part1 (Parsers.day15()))
+
+[<Fact>]
+let ``D15P2`` () =
+    let data =
+        "1163751742
+1381373672
+2136511328
+3694931569
+7463417111
+1319128137
+1359912421
+3125421639
+1293138521
+2311944581"
+            .Split('\n', StringSplitOptions.TrimEntries) |> List.ofArray
+
+    Assert.Equal(315, Day15.part2 data)
+    Assert.Equal(3012, Day15.part2 (Parsers.day15()))
